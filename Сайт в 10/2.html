@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Блочная верстка в HTML5</title>
+        <style>
+        	body { background-image: linear-gradient(white, grey); }
+            div{
+                margin: 25px;
+                font-size: 20px;
+            }
+            #leftSidebar{
+                width: 25%;
+                float: left;
+            }
+            #img{
+                width: 95%;
+            }
+            #leftSidebarb{
+                width: 90%;
+                float: left;
+            }
+            #leftSidebarс{
+            	width: 90%;
+                float: left;
+                color: rgba(7,7,7,.4);
+            }
+            #rightSidebar{
+                width: 65%;
+                float: right;
+            }
+            #main{
+            	height: 400px;
+                background-color: #eee;
+                margin-left: 12%;
+                margin-right: 12%;
+            }
+            #footer{ 
+                background-color: grey;
+                height: 100px;
+            }
+.top-menu {
+  position: relative;
+  background: rgba(0,0,0,.3);
+}
+.menu-main {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 90px;
+  text-align: center;
+}
+.menu-main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.left-item {float: left;}
+.right-item {float: right;}
+.navbar-logo {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  transform: translateX(-50%);
+}
+.menu-main a {
+  text-decoration: none;
+  display: block;
+  line-height: normal;
+  padding: 20px 15px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: white;
+  transition: .3s linear;
+}
+.menu-main li {
+  float: none;
+  display: inline-block;
+}
+.menu-main a:hover {background: rgba(0,0,0,.3);}
+@media (max-width: 850px) {
+.menu-main li {display: block;}
+}
+        </style>
+    </head>
+    <body>
+   <nav class="top-menu">
+  <ul class="menu-main">
+    <li class="left-item"><a href="index.html">Главная</a></li>
+    <li class="left-item"><a href="2.html">О нас</a></li>
+    <li class="left-item"><a href="3.html">Популярные</a></li>
+    <li class="left-item"><a href="4.html">Новинки</a></li>
+    <li class="left-item"><a href="5.html">Наше местонахождение</a></li>
+    <li class="right-item"><a href="6.html">Контакты</a></li>
+    <li class="right-item"><a href="7.html">Магазины</a></li>
+    <li class="right-item"><a href="8.html">Главный сбор информации</a></li>
+    <li class="right-item"><a href="9.html">Поддержка</a></li>
+    <li class="right-item"><a href="10.html">Галлерея</a></li>
+</ul>
+  <a class="navbar-logo" href=""><img src="img/logo.png" width="250px"></a>
+</nav>
+        <div id="main">
+        	<div id="leftSidebarb"><h2>Информация о нас</h2>
+            <div id="leftSidebar"><img id="img" src="img/logo.png"></div><br>
+        Мы компания, котора является подразделением Realme в России. Здесь по вашим голосам выбирается лучшая модель смартвона. Вы сможете поучаствовать в голосовании просто перейдя по запросу в гугл опрос. Мы очень рады что мы можем с вами поговорить и узнать о впечатлениях о продукции</div><br>
+        </div>
+        <div id="footer"><div id="leftSidebarс">© 1998 – 2023 ООО «Интернет Задачи». Все права защищены.</div></div>
+    </body>
+</html>
